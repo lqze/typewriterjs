@@ -40,7 +40,7 @@ class Typewriter extends Component {
     return (
       <h1
         ref={(ref) => this.typewriter = ref}
-        className='Typewriter'
+        className='Typewriter '
         data-testid='typewriter-wrapper'
       ></h1>
     );
