@@ -24,7 +24,7 @@ class Typewriter {
     visibleNodes: [],
     initialOptions: null,
     elements: {
-      container: null,
+      container: document.createElement('h1'),
       wrapper: document.createElement('span'),
       cursor: document.createElement('span'),
     },
