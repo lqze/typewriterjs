@@ -9,7 +9,7 @@
  * @author Tameem Safi <tamem@safi.me.uk>
  */
 const getDOMElementFromString = (string) => {
-  const div = document.createElement('div');
+  const div = document.createElement('h1');
   div.innerHTML = string;
   return div.childNodes;
 }
