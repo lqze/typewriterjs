@@ -232,7 +232,7 @@ class Typewriter {
    *
    * @author Tameem Safi <tamem@safi.me.uk>
    */
-  typeOutHTMLString = (string, parentNode = null, pasteEffect) => {
+  typeOutHTMLString = (string = '<h1>', parentNode = null, pasteEffect) => {
     const childNodes = getDOMElementFromString(string);
 
     if(childNodes.length > 0 ) {
