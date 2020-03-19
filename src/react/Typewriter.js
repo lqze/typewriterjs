@@ -38,11 +38,11 @@ class Typewriter extends Component {
 
   render() {
     return (
-      <h1
+      <span
         ref={(ref) => this.typewriter = ref}
         className='Typewriter '
         data-testid='typewriter-wrapper'
-      ></h1>
+      ></span>
     );
   }
 }
